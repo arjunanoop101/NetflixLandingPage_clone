@@ -86,8 +86,8 @@ nav button{
 
 
 .seperation{
-    border: 2px solid rgb(102, 102, 102);
-    background-color: rgb(102, 102, 102);
+    border: 2px solid rgb(70, 70, 70);
+    background-color: rgb(70, 70, 70);
     height: 5px;
 }
 
@@ -101,6 +101,7 @@ nav button{
     font-weight: 400;
     border-radius: 3px;
     font-family: "Martel Sans", sans-serif;
+    cursor: pointer;
 
 }
 
@@ -118,13 +119,148 @@ nav button{
 
 .btn-red{
     background-color: red;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    border: none;
     font-size: 24px;
     font-weight: 500;
+}
+.btn-red:hover{
+    background-color: rgb(233, 4, 4);
 }
 .btn-red-sm{
     background-color: red;
     border: 2px solid red;
     font-size: 14px;
     font-weight: 500;
+}
+
+.btn-red-sm:hover{
+    background-color: rgb(233, 4, 4);
+}
+
+.first{
+    display: flex;
+    padding: 4.5rem 0rem;
+    font-family: "Martel Sans", sans-serif;
+    color:white;
+    align-items: center;
+}
+
+.first >div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px 165px;
+}
+
+.first > div >:nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    
+}
+
+.first > div >:nth-child(2){
+    font-weight:400;
+    font-size: 24px;
+    
+    
+}
+.first > div >:nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    
+}
+
+.first > :nth-child(2){
+    position: relative;
+}
+
+.first > :nth-child(2) video{
+    position: absolute;
+    top: 94px;
+    left: 243px;
+    z-index: -1;
+}
+
+
+
+.second{
+    display: flex;
+    padding: 4.5rem 0rem;
+    font-family: "Martel Sans", sans-serif;
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+
+.second > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+.second > :nth-child(2) > :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.second > :nth-child(2) > :nth-child(2){
+    font-weight: 900;
+    font-size: 48px;
+}
+
+
+.second > :nth-child(2) > :nth-child(3){
+    font-weight:400;
+    font-size: 24px;
+}
+.second > :nth-child(2) > :nth-child(4){
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+.third{
+    display: flex;
+    padding: 4.5rem 0rem;
+    font-family: "Martel Sans", sans-serif;
+    color:white;
+    align-items: center;
+
+}
+
+.third  > div{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 0px 165px;
+
+}
+
+.third > div :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+}
+.third > div :nth-child(2){
+
+    font-weight:400;
+    font-size: 24px;
+}
+.third > div :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+
+.third > :nth-child(2){
+    position: relative;
+}
+
+.third > :nth-child(2) video{
+    position: absolute;
+    top: 21px;
+    left: 269px;
+    z-index: -1;
+    width: 410px;
 }
