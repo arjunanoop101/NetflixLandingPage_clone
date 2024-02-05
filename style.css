@@ -264,3 +264,99 @@ nav button{
     z-index: -1;
     width: 410px;
 }
+
+
+
+.fourth{
+    display: flex;
+    padding: 4.5rem 0rem;
+    font-family: "Martel Sans", sans-serif;
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.fourth > :nth-child(2){
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth > :nth-child(2) > :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.fourth > :nth-child(2) > :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.fourth > :nth-child(2) > :nth-child(3){
+    font-weight:400;
+    font-size: 24px;
+}
+.fourth > :nth-child(2) > :nth-child(4){
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.faq-section{
+    display: flex;
+    justify-content: center;
+    color:white;
+    flex-direction: column;
+    height: 80vh;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60vw;
+    text-align: center;
+
+}
+
+.container h1{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: "Martel Sans", sans-serif;
+}
+.container button{
+    text-align: left;
+    background-color: #2D2D2D;
+    border: none;
+    color:white;
+    font-family: "Martel Sans", sans-serif;
+    padding: 10px 13px;
+}
+.container button:hover{
+    cursor: pointer;
+    background-color: rgb(85, 85, 85);
+}
+
+
+
+.footer{
+    color: white;
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    margin:100px;
+
+}
+
+.footer ul li{
+    text-decoration: underline;
+    list-style-type: none;
+    margin:10px;
+}
+
+
+.footer ul li a:hover{
+    cursor:pointer
+}
